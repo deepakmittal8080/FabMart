@@ -29,12 +29,8 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/EcomProj/index.jsp">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/EcomProj/AboutUs.jsp">About Us</a>
-            </li>
+            
+            
         </ul>
 
 
@@ -81,7 +77,7 @@
                         <a class="nav-link" href="/EcomProj/User/Login.jsp">Log In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/EcomProj/User/Registration.jsp">Registration</a>
+                        <a class="nav-link" href="http://localhost:8080/EcomProj/User/Registration.jsp">Sign Up</a>
                     </li>
                 </ul>
             </c:otherwise>

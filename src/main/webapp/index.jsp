@@ -26,7 +26,7 @@
     <body>
 
         <!-- Carousel ------------>    
-        <div class="container">
+        <div class="container-fluid">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -35,13 +35,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" style="height: 400px;" src="images/a.jpg" alt="First slide">
+                        <img class="d-block w-100" style="height: 500px;" src="images/a.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" style="height: 400px;" src="images/b.jpg" alt="Second slide">
+                        <img class="d-block w-100" style="height: 500px;" src="images/b.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" style="height: 400px;" src="images/c.jpg" alt="Third slide">
+                        <img class="d-block w-100" style="height: 500px;" src="images/c.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -54,7 +54,7 @@
                 </a>
             </div>
             <br>
-            <hr>
+            
         </div>
         <br>
         <br>
@@ -95,6 +95,7 @@
                                                              <div class="card-body"  style="padding: 0; text-align: center;">
                                                                 <img class="card-img-top" src="${prod.getImagePath()}" alt="Card image cap" style="object-fit: cover; height: 200px;">
                                                                 <h5 class="card-title" style="margin-top: 5px;">${prod.getName()}</h5>
+                                                                <h5>Rs&nbsp${prod.getPrice()}</h5>
                                                                 <a  href="Product/ViewSingleProduct.jsp?id=${prod.getId()}" class="btn btn-primary" style="color: white; width: 150px; margin-bottom: 10px;">View</a>
                                                             </div>  
                                                         </div>
@@ -150,6 +151,7 @@
 
                                     <div class="jumbotron" style="color:white;background-color: black; margin-top: 60px; margin-bottom: 0;">
                                         <p>Welcome to Ecom</p>
+                                        <h5><a href="AboutUs.jsp">About Us</a></h5>
                                     </div>
 
                                     </body>

@@ -10,13 +10,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Registration</title>
+        <title>Sign Up</title>
     </head>
     <body>
     <c:import url="/header.jsp"></c:import>
           
           <div class="container">
-                <h1>Registration</h1>
+                <h1>Sign Up</h1>
                 <br>
             <form method="post" action="${pageContext.request.contextPath}/AddUserToDB">
                 <input type="text" placeholder="Enter Username" name="username" class="form-control"><br>

@@ -36,32 +36,9 @@
          </div>
             
             
-              <% session.setAttribute("userObject", request.getSession().getAttribute("userObject")); 
-                  
-                %>
-                
-                ${userObject}
-        <c:choose>
-
-            <c:when test="${not empty userObject}">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item nav-link">Welcome ${userObject.getUsername()}</li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">">Log Out</a>
-                    </li>
-                </ul>
-            </c:when>
             
-            <c:otherwise>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/EcomProj/User/Login.jsp">Log In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Registration</a>
-                    </li>
-                </ul>
-            </c:otherwise>
-        </c:choose>
+                
+                
+        
     </body>
 </html>
